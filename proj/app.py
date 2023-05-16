@@ -29,3 +29,4 @@ def add_task():
     tasks = cursor.fetchall()
     connection.close()
     return render_template('index.html', tasks=tasks)
+
